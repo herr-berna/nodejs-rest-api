@@ -36,7 +36,3 @@ mongoose.connect(`mongodb+srv://${DB_USER}:${DB_PASS}@cluster0.yfphxbx.mongodb.n
     app.listen(3000);
 })
 .catch((err) => console.log(err))
-
-//senha db: Wwr9qwwaYW8r8KnI
-
-// mongodb+srv://herr-berna:<Wwr9qwwaYW8r8KnI>@cluster0.yfphxbx.mongodb.net/bancoDaApi?retryWrites=true&w=majority
